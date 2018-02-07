@@ -46,7 +46,7 @@ public class AppController {
 	AuthenticationTrustResolver authenticationTrustResolver;
 	     
 	/**
-	 * This method will list all existing users.
+	 * Este método muestra una lista de los usuarios.
 	 */
 	@RequestMapping(value = { "/", "/list" }, method = RequestMethod.GET)
 	public String listUsers(ModelMap model) {
